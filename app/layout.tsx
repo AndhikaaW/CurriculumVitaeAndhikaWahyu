@@ -1,7 +1,11 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Next.js on GitHub Pages',
+  title: 'Andhika Wahyu - Mobile Developer',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
   description: 'Deploy your static Next.js site to GitHub Pages.',
 };
 
