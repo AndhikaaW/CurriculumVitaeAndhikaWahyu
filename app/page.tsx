@@ -17,7 +17,7 @@ export default function Home() {
         maxWidth: "800px",
         width: "100%"
       }}>
-        <div style={{ textAlign: "center", marginBottom: "2rem" }}>         
+        <div style={{ textAlign: "center", marginBottom: "2rem" }}>
           <img
             src="https://avatars.githubusercontent.com/u/124218367?s=400&u=b9dcb564fb16d9935f021180a1d0e8ea55fe76af&v=4"
             alt="Andhika Wahyu"
@@ -32,7 +32,7 @@ export default function Home() {
           />
           <h1 style={{ margin: "0.5rem 0", color: "#222" }}>Andhika Wahyu</h1>
           <h2 style={{ margin: "0.25rem 0", color: "#0077B5", fontSize: "1.1rem", fontWeight: 500 }}>Mobile Developer</h2>
-          
+
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", marginTop: "1rem" }}>
             <a href="mailto:andhikaw61@gmail.com" style={{ color: "#0077B5", textDecoration: "none", fontWeight: 500 }}>Email</a>
             <a href="https://www.linkedin.com/in/andhikaw/" target="_blank" rel="noopener noreferrer" style={{ color: "#0077B5", textDecoration: "none", fontWeight: 500 }}>LinkedIn</a>
@@ -40,38 +40,60 @@ export default function Home() {
           </div>
         </div>
 
-         <div style={{ textAlign: "left" }}>
-          <h3 style={{ color: "#333", borderBottom: "2px solid #0077B5", paddingBottom: "0.5rem" }}>Experience</h3>
+        <div style={{ textAlign: "left" }}>
+          <h3 style={{ color: "#333", borderBottom: "2px solid #0077B5", paddingBottom: "0.5rem" }}>Pengalaman</h3>
           <div style={{ marginBottom: "1.5rem" }}>
-            <h4 style={{ color: "#0077B5", margin: "0.5rem 0" }}>Mobile Developer - PT Datamax Technology</h4>
-            <p style={{ color: "#666", margin: "0.25rem 0", fontSize: "0.9rem" }}>Feb 2023 - Present</p>
-            <ul style={{ color: "#444", paddingLeft: "1.2rem" }}>
-              <li>Developing cross-platform mobile applications using React Native</li>
-              <li>Implementing responsive UI/UX designs and mobile-first approaches</li>
-              <li>Integration with RESTful APIs and mobile-specific features</li>
-              <li>Performance optimization for mobile devices</li>
+            <h4 style={{ color: "#0077B5", margin: "0.5rem 0" }}>Staff Muda Divisi Dana Usaha</h4>
+            <p style={{ color: "#666", margin: "0.25rem 0", fontSize: "0.9rem" }}>
+              Himpunan Mahasiswa Program Studi Teknologi Informasi Politeknik Negeri Madiun - Musiman
+            </p>
+            <p style={{ color: "#666", margin: "0.25rem 0", fontSize: "0.9rem" }}>
+              Feb 2023 - Des 2023 · 11 bln
+            </p>
+            <p style={{ color: "#888", margin: "0.25rem 0", fontSize: "0.9rem" }}>
+              Kota Madiun, Jawa Timur, Indonesia
+            </p>
+            <ul style={{ color: "#444", paddingLeft: "1.2rem", marginTop: "0.5rem" }}>
+              <li>Teamwork, Time Management dan +1 keahlian</li>
+            </ul>
+          </div>
+          <div style={{ marginBottom: "1.5rem" }}>
+            <h4 style={{ color: "#0077B5", margin: "0.5rem 0" }}>Magang PT. Marstech Global</h4>
+            <p style={{ color: "#666", margin: "0.25rem 0", fontSize: "0.9rem" }}>
+              PT. Marstech Global
+            </p>
+            <p style={{ color: "#666", margin: "0.25rem 0", fontSize: "0.9rem" }}>
+              Jun 2024 - Nov 2024 · 6 bln
+            </p>
+            <p style={{ color: "#888", margin: "0.25rem 0", fontSize: "0.9rem" }}>
+              Kota Madiun, Jawa Timur, Indonesia
+            </p>
+            <ul style={{ color: "#444", paddingLeft: "1.2rem", marginTop: "0.5rem" }}>
+              <li>Membuat Aplikasi Mobile untuk PT. Marstech Global</li>
+              <li>Pengembangan website untuk PT. Marstech Global</li>
             </ul>
           </div>
 
-          <h3 style={{ color: "#333", borderBottom: "2px solid #0077B5", paddingBottom: "0.5rem" }}>Education</h3>
+          <h3 style={{ color: "#333", borderBottom: "2px solid #0077B5", paddingBottom: "0.5rem" }}>Pendidikan</h3>
+          <div style={{ marginBottom: "1.5rem" }}>
+            <h4 style={{ color: "#0077B5", margin: "0.5rem 0" }}>SMA Negeri 1 Pacitan</h4>
+            <p style={{ color: "#666", margin: "0.25rem 0", fontSize: "0.9rem" }}>2019 - 2022</p>
+          </div>
           <div style={{ marginBottom: "1.5rem" }}>
             <h4 style={{ color: "#0077B5", margin: "0.5rem 0" }}>Politeknik Negeri Madiun</h4>
-            <p style={{ color: "#666", margin: "0.25rem 0", fontSize: "0.9rem" }}>Bachelor's degree, Information Systems • 2019 - 2023</p>
+            <p style={{ color: "#666", margin: "0.25rem 0", fontSize: "0.9rem" }}>Ahli Madya, Teknologi Informasi • 2022 - 2025</p>
           </div>
 
-          <h3 style={{ color: "#333", borderBottom: "2px solid #0077B5", paddingBottom: "0.5rem" }}>Skills</h3>
+          <h3 style={{ color: "#333", borderBottom: "2px solid #0077B5", paddingBottom: "0.5rem" }}>Keahlian</h3>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginTop: "0.5rem" }}>
             {[
               "React Native",
               "JavaScript",
               "TypeScript",
               "Mobile UI/UX",
-              "Redux",
               "REST APIs",
               "Git",
               "Android Development",
-              "iOS Development",
-              "Cross-platform Development"
             ].map((skill) => (
               <span key={skill} style={{
                 background: "#e1f0ff",
