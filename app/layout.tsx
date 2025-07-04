@@ -1,23 +1,14 @@
-import type { Metadata } from 'next';
 import '../globals.css';
 
-export const metadata: Metadata = {
-  title: 'Andhika Wahyu - Mobile Developer',
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/favicon.ico',
-  },
-  description: 'Deploy your static Next.js site to GitHub Pages.',
+export const metadata = {
+  title: 'CurriculumVitaeAndhikaWahyu',
+  description: 'My CV',
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>{children}</body>  // 👈 hanya render children
     </html>
   );
 }
