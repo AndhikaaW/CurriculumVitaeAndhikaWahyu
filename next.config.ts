@@ -1,13 +1,9 @@
 import type { NextConfig } from 'next';
 
-const repo = 'CurriculumVitaeAndhikaWahyu';
-
-const isProd = process.env.NODE_ENV === 'production';
-
 const nextConfig: NextConfig = {
-  output: isProd ? 'export' : undefined,
-  basePath: isProd ? `/${repo}` : '',
-  assetPrefix: isProd ? `/${repo}/` : '/',
+  output: 'export',
+  basePath: '',
+  assetPrefix: '/',
 };
 
 export default nextConfig;
