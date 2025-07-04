@@ -1,25 +1,13 @@
-// import type { NextConfig } from 'next';
+import type { NextConfig } from 'next';
 
-// const repo = 'CurriculumVitaeAndhikaWahyu';
+const repo = 'CurriculumVitaeAndhikaWahyu';
 
-// const nextConfig: NextConfig = {
-//   output: 'export',
-//   basePath: process.env.PAGES_BASE_PATH || `/${repo}`,
-//   assetPrefix: process.env.PAGES_BASE_PATH || `/${repo}/`,
-// };
+const isProd = process.env.NODE_ENV === 'production';
 
-// export default nextConfig;
+const nextConfig: NextConfig = {
+  output: isProd ? 'export' : undefined,
+  basePath: isProd ? `/${repo}` : '',
+  assetPrefix: isProd ? `/${repo}/` : '/',
+};
 
-
-
-
-// /** @type {import('next').NextConfig} */
-// const repo = 'CurriculumVitaeAndhikaWahyu';
-
-// const nextConfig = {
-//  output: 'export',
-//   basePath: process.env.PAGES_BASE_PATH || `/${repo}`,
-//   assetPrefix: process.env.PAGES_BASE_PATH || `/${repo}/`,
-// };
-
-// module.exports = nextConfig;
+export default nextConfig;
