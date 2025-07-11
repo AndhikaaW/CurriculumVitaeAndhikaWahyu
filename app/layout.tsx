@@ -1,4 +1,5 @@
 import '../globals.css';
+import TopBar from './components/TopBar';
 
 export const metadata = {
   title: 'CurriculumVitaeAndhikaWahyu',
@@ -8,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body> 
+      <body className='bg-gray-900 text-white font-sans'>
+        <TopBar />
+        {children}
+      </body>
     </html>
   );
 }
