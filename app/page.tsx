@@ -139,7 +139,7 @@ const contactInfo = [
 
 const socialLinks = [
   { icon: <Instagram size={20} />, href: "https://www.instagram.com/tiandhika_/", color: "bg-purple-700 hover:bg-purple-600" },
-  { icon: <MessageCircle size={20} />, href: "https://wa.me/+6282140709064", color: "bg-green-600 hover:bg-green-500" },
+  { icon: <MessageCircle size={20} />, href: "https://wa.me/+6282140798064", color: "bg-green-600 hover:bg-green-500" },
   { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/andhikaw/", color: "bg-blue-600 hover:bg-blue-500" }
 ];
 
