@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import { ArrowLeft, ExternalLink, Github } from 'lucide-react';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 const projectImages = [
   { src: '/sc1.png', alt: 'Screenshot 1' },
@@ -63,7 +63,7 @@ export default function LosProjectPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projectImages.map((image, index) => (
               <div key={index} className="bg-gray-800 border border-gray-700 rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300 cursor-pointer">
-                <Image
+                <img
                   src={image.src}
                   alt={image.alt}
                   width={500}
