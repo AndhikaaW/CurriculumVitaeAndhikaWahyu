@@ -48,7 +48,7 @@ export default function AboutPage() {
             <div className="w-80 h-80 bg-gradient-to-br from-purple-500 to-blue-500 rounded-full p-1">
               <div className="w-full h-full rounded-full bg-gray-800 overflow-hidden flex items-center justify-center">
                 <div className="w-72 h-72 rounded-full bg-gray-700 flex items-center justify-center text-6xl">
-                    <img src="https://media.licdn.com/dms/image/v2/D4D35AQG-rd7WP-2VMQ/profile-framedphoto-shrink_400_400/B4DZbi1LAnIAAc-/0/1747562312026?e=1752829200&v=beta&t=3-xi4qFd03F2DtCsBL6kKeLC2err66_JS5a8XyBgNtY" alt="" className="rounded-full" />
+                    <img src="https://media.licdn.com/dms/image/v2/D4D35AQG-rd7WP-2VMQ/profile-framedphoto-shrink_400_400/B4DZbi1LAnIAAc-/0/1747562312026?e=1752829200&v=beta&t=3-xi4qFd03F2DtCsBL6kKeLC2err66_JS5a8XyBgNtYhttps://media.licdn.com/dms/image/v2/D4D35AQG-rd7WP-2VMQ/profile-framedphoto-shrink_200_200/B4DZbi1LAnIAAY-/0/1747562312026?e=1754038800&v=beta&t=QG7RdRXiIGCBrsOfQzWmPofL74y-Y9Z728KfsDXg3LQ" alt="" className="rounded-full" />
                 </div>
               </div>
             </div>
