@@ -164,7 +164,15 @@ export default function PortfolioLanding() {
             </p>
 
             <div className="flex gap-4">
-              <button className="bg-blue-500 text-white px-6 py-3 rounded flex items-center gap-2 text-base hover:bg-blue-600 transition-colors">
+              <button
+                className="bg-blue-500 text-white px-6 py-3 rounded flex items-center gap-2 text-base hover:bg-blue-600 transition-colors"
+                onClick={() => {
+                  window.open(
+                    "https://drive.google.com/uc?export=download&id=1lhfk0vj_T7oM5Gm-JBgeNIFI_acYpA_Y",
+                    "_blank"
+                  );
+                }}
+              >
                 <Download size={20} />
                 Download CV
               </button>
@@ -186,7 +194,7 @@ export default function PortfolioLanding() {
               <div className="relative z-10 w-72 h-72 bg-gradient-to-br from-purple-500 to-blue-500 rounded-full p-1">
                 <div className="w-full h-full rounded-full bg-gray-800 overflow-hidden flex items-center justify-center">
                   <div className="w-64 h-64 rounded-full bg-gray-700 flex items-center justify-center text-6xl">
-                    <img src="https://media.licdn.com/dms/image/v2/D4D35AQG-rd7WP-2VMQ/profile-framedphoto-shrink_200_200/B4DZbi1LAnIAAY-/0/1747562312026?e=1754038800&v=beta&t=QG7RdRXiIGCBrsOfQzWmPofL74y-Y9Z728KfsDXg3LQ" alt="" className="rounded-full" />
+                    <img src="/pp/profile.png" alt="" className="rounded-full"/>
                   </div>
                 </div>
               </div>
